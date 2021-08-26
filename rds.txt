@@ -1,0 +1,27 @@
+sudo yum install mysql mysql-server -y
+
+mysql -h <endpoint> -u admin -p
+example:(mysql -h rds-18demo.cdauqfm2mzjs.ap-south-1.rds.amazonaws.com -u demo18 -p)
+
+type password----welcome-----connected--------
+
+show tables;
+create database demo;
+show databases;
+use demo;
+show tables;
+create table Persons (
+id int auto_increment,
+fname text not null,
+lname text,
+cname text,
+age int,
+primary key(id)
+);
+show tables;
+insert into Persons ( fname,lname,cname,age)
+values ('laxmi', 'kant','infy',21);
+select * from Persons;
+
+
+

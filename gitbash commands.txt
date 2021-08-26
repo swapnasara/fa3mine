@@ -1,0 +1,17 @@
+open git bash or git cmd:
+step 1:
+git clone (copy paste url -clone url)
+
+step 2:
+cd (file name)
+
+step 3:
+git add *
+
+step 4:
+git config --global user.email "swapnasara1@gmail.com"
+git config --global user.name "swapna"
+git commit -m "added source code"
+
+step 5:
+git push origin master
